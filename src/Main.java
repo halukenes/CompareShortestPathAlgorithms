@@ -6,7 +6,7 @@ public class Main {
 	public static final int INF = 0;
 
 	public static void main(String[] args) {
-		int numberofvertices = 100;                 //Number of vertices in graph can be change
+		int numberofvertices = 100;                 //Number of vertices in graph can be change(dont make it more than 10000, because bellmanford is very slow to solve it.) 
 		int source = 1;								//The vertex index For single-pair algorithms
 		Random r = new Random();
 
